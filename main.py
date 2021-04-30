@@ -7,7 +7,7 @@ available_devs = []
 
 
 def raffle_turns():
-    init_date = datetime.datetime(2021, 4, 30)
+    init_date = datetime.datetime(2021, 5, 7)
     next_date = init_date
     result = ''
     weeks_to_raffle = round(52 / len(devs_list))
